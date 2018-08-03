@@ -1,0 +1,22 @@
+.main{
+    width: 100%
+}
+#p1{
+    height: 5000px;
+}
+.texttanki{
+    align: center;
+    margin: 0 auto;
+}
+#zagolovok{
+    margin-left: 25%;
+}
+#warplane{
+    margin-top: 500px;
+    margin-right: auto;
+}
+#warship{
+    margin-top: 500px;
+    margin-right: auto;
+
+}
