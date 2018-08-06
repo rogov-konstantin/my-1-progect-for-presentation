@@ -1,23 +1,24 @@
 .main{
-    width: 100%
+    width: 80%;
+    margin-left: 10%;
 }
-#p1{
-    height: 5000px;
-}
+
+
+
 #warplane{
     margin-top: 500px;
     width:100%;
+    background: rgb(27, 117, 4);
 }
+.main-container-plane1{
+    margin-top: 50px;
+}
+
+
+
+
+
 #warship{
     margin-top: 500px;
 }
-.text1class{
-    width: 25%;
-}
-.planecontainer{
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-.text2class{
-    width: 25%;
-}
+
