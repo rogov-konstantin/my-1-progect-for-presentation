@@ -8,14 +8,19 @@
 #warplane{
     margin-top: 500px;
     width:100%;
-    background: rgb(27, 117, 4);
 }
-.main-container-plane1{
+.main-text-plane{
     margin-top: 50px;
 }
-
-
-
+.content-plane{
+    display: inline-block;
+}
+.col1{
+    width: 40%;
+}
+.img-plane{
+    margin-top: 10px;
+}
 
 
 #warship{
