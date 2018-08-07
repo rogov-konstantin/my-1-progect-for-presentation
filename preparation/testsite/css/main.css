@@ -4,9 +4,17 @@
 }
 
 
+#tank{
+    margin-bottom: 500px;
+}
+.namezagolovok{
+    color: black;
+}
+.namezagolovok:hover{
+    color: red;
+}
 
 #warplane{
-    margin-top: 500px;
     width:100%;
 }
 .main-text-plane{
@@ -26,4 +34,3 @@
 #warship{
     margin-top: 500px;
 }
-
