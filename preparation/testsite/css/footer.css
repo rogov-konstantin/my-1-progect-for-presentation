@@ -1,8 +1,9 @@
 .footer {
-    background: url(../img/bg6.jpg) center;
+    background: url(../img/vintage-concrete/vintage-concrete.png) center;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 120px;
+    color: black;
 }
 
 .footer-block {
@@ -103,6 +104,7 @@
     position: relative;
     cursor: pointer;
     text-transform: uppercase;
+    margin-right: 25;
 }
 
 .instagram-feed-list {

@@ -1,6 +1,15 @@
+.headcont{
+    display: inline-block;
+}
 .menu-text{
     color: black;
 }
 .menu-text:hover{
     color: black;
+}
+.zagtext{
+    color: white;
+}
+.zagtext:hover{
+    color: white;
 }

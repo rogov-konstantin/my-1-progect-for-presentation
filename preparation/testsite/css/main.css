@@ -5,7 +5,12 @@
 .zagolovok{
     margin-top: 25px;
 }
-
+.menu-text{
+    color: grey;
+}
+.menu-text:hover{
+    color: grey;
+}
 #tank{
     margin-bottom: 500px;
 }
@@ -18,24 +23,40 @@
     transition: width 1s ease-in-out;
 }
 .imgbox{
-    width: 300px;
+    width: 500px;
     height: 170px;
 }
 .img:hover{
-    background-color: green;
-    color: #fff;
+    background-image: url(../img/old_map/old_map.png);
+    color: black;
     overflow: visible;
     width: 1000px;
     height: 170px;
 }
-
-
-
-.namezagolovok{
-    color: black;
+.specimg{
+    margin-bottom: 20px;
 }
-.namezagolovok:hover{
-    color: red;
+
+@media screen and (max-width: 1140px){
+    .img{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 170px;
+    
+        overflow: hidden;
+        transition: height  1s ease-in-out;
+    }
+    .img:hover{
+        background-image: url(../img/old_map/old_map.png);
+        color: black;
+        overflow: visible;
+        width: 300px;
+        height: 700px;
+    }
+    .specimg{
+        margin-bottom: 20px;
+    }
 }
 
 #warplane{
