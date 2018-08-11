@@ -1,3 +1,6 @@
+.color{
+    color: black;
+}
 .footer {
     background: url(../img/vintage-concrete/vintage-concrete.png) center;
     background-size: cover;
@@ -12,7 +15,6 @@
 
 .footer-block_last {
     padding-top: 120px;
-    color: white;
 }
 
 .footer-column {
@@ -32,14 +34,9 @@
 }
 
 .footer-column__header {
-    color: #fff;
     margin-bottom: 25px;
     font-size: 18px;
     font-weight: 600;
-}
-
-.footer-column__body {
-    color: white;
 }
 
 .footer-column__body p {
@@ -57,7 +54,7 @@
 }
 
 .footer-group-link__link {
-    color: #fff;
+    color: black;
     text-decoration: none;
     outline: 0;
 }
@@ -83,7 +80,7 @@
 .footer-search-input {
     line-height: 38px;
     border: none;
-    background: #fff;
+    background: white;
     font-weight: 300;
     border-radius: 20px;
     color: #777;
@@ -93,12 +90,12 @@
 }
 
 .footer-search-button {
-    background-color: #8a90ff;
+    background-color: rgb(18, 28, 170);
     line-height: 42px;
     padding: 0 45px;
     border-radius: 25px;
     border: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: inline-block;
     font-weight: 500;
     position: relative;
@@ -162,6 +159,6 @@
 
     .footer-block_last {
         padding-top: 15px;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 }
